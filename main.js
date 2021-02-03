@@ -1,6 +1,6 @@
 (() => {
 
-  const contents = document.getElementById('contents');
+  const contents = document.querySelector('.contents');
 
   // 
   const infiniteScrollObserver = new IntersectionObserver(entries => {
